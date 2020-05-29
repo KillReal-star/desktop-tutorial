@@ -1,0 +1,30 @@
+{
+    "1234" : {
+        "name" : "Жим лёжа",
+        "cost" : 10,
+        "description" : "Жим лёжа",
+        "order" : 3,
+        "img" : "gym.png"
+    },
+    "1235" : {
+        "name" : "Жим в наклоне",
+        "cost" : 12,
+        "description" : "Жим в наклоне",
+        "order" : 3,
+        "img" : "gymnaklon.png"
+    },
+    "1236" : {
+        "name" : "Приседания",
+        "cost" : 13,
+        "description" : "Приседания",
+        "order" : 3,
+        "img" : "gymsit.png"
+    },
+    "1237" : {
+        "name" : "Кроссовер",
+        "cost" : 14,
+        "description" : "Кроссовер",
+        "order" : 3,
+        "img" : "gym3.png"
+    }
+}
