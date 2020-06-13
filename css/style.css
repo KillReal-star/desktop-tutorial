@@ -1,28 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    
+    background: #424141;
+}
+   
+   .header-bg {
+    margin: 10px;
+    padding: 10px;
+    height: 75px; 
+    font-size: 23px;
+    text-align: right;
+    font-family: Montserrat, sans-serif;
+   }
+
+    h1 {
+        float: left;
+        color: yellow;
+        text-align: left;
+        margin: 0px;
+        padding: 0px;
+
+    }
+    
+   
+   h2 {
+    display: inline-block;
+       text-align: right;
+       color: yellow;
+       top: 10px; 
+   }
+   img {
+       align-items: left;
+   }
+
+
+body {
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    font-family: Montserrat, sans-serif;
+}
+
+a {
+    color: #3a546b;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+p {
+    margin: 10 px 0;
+}
+
+form {
+    position: fixed; top: 50%; left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+
+input {
+    margin: 10px 0;
+    padding: 10px;
+    border: unset;
+    border-bottom: 2px solid #e3e3e3;
+}
+
+button {
+    font-size: 12px;
+    padding: 10px;
+    background: #e3e3e3;
+    border: unset;
+    cursor: pointer;
+}
+
+.msg {
+    border: 2px solid #ffa908;
+    border-radius: 3px;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.logout {
+    text-align: center;
+    color: #b7625c;
+}
+
 .cart {
-    width:250px;
-    height:340px;
+    width:240px;
+    height:370px;
     border:1px solid black;
     margin: 30px;
     float: left;
     text-align: center;
     padding: 20px;
+    
 }
 .cart .name{
     font-size: 1.4rem;
     font-weight: bold;
     text-transform: uppercase;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 }
 .cart .cost {
 font-size: 1.3rem;
-margin: 30px 0;
+margin: 10px 0;
 }
 .cart .add-to-cart {
 font-size: 1.1rem;
-background: black;
+background: #424141;
 color: white;
 padding: 10px 20px;
 border: none;
+
 cursor: pointer;
 }
 .cart .add-to-cart:hover {
